@@ -7,8 +7,7 @@
         <th>Email</th>
         <th>Phone</th>
         <th>Twitter</th>
-        <th>User Id</th>
-        <th colspan="1"></th>
+        <th> </th>
       </tr>
     </thead>
 
@@ -19,9 +18,8 @@
           <td><%= link_to friend.first_name + ' ' + friend.last_name, friend %></td>
           <td><%= friend.email %></td>
           <td><%= friend.phone %></td>
-          <td><%= friend.twitter %></td>
-          <td><%= friend.user_id %></td>                 
-          <td><%= link_to 'Delete', @friend, data: { turbo_method: :delete }, class: "btn btn-danger" %></td>
+          <td><%= friend.twitter %></td>              
+          <td><%= link_to 'Delete', friend, data: { turbo_method: :delete }, class: "btn btn-outline-danger btn-sm" %></td>
         </tr>
         <% end %>
       <% end %>

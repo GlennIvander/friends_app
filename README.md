@@ -1,24 +1,13 @@
-# README
+# Friends List App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hi there! My name is Glenn Ivander Jano. Aspiring Full Stack Developer.
 
-Things you may want to cover:
+I did this code with the help from codemy.com.
 
-* Ruby version
+Big thanks to John Elder for well and informative course about Ruby on Rails.
 
-* System dependencies
+Big thanks also to my mentor and instructor Justine for the guidance.
 
-* Configuration
+Please give a star on this code.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks!
